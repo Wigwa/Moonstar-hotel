@@ -1,0 +1,118 @@
+h1{
+  color: blueviolet;
+  text-align: center;
+  background-color: rgb(193, 206, 209);
+  font-style: oblique;
+  }
+  h2{
+    text-align: center;
+    color: blueviolet;
+    font-size: xx-large;
+  }
+  h3{
+    text-align: center;
+    color:blueviolet;
+    font-size: xx-large;
+    font-style: italic;
+  }
+  p{
+    text-decoration: darkblue;
+    text-align: center;
+    color: rgb(56, 116, 116);
+  }
+  body{
+    background-color: moccasin;
+  }
+  li{
+    color: rgb(56, 116, 116);
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow:  hidden;
+    background-color: none;
+  }
+  
+  nav li {
+    float: right;
+    text-decoration: none;
+  }
+  
+  nav li a{
+    display: flexbox;
+    color: aqua;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  }
+  
+  nav li a:hover {
+    color: beige;
+  }
+  img{
+    display: flexbox;
+    flex:auto;
+    padding-left: 20px;
+    border-radius: 30%;
+    box-shadow: 5px 5px 5px grey;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  footer {
+  background-color: rgb(61, 58, 56);
+  color:white;
+  height: 400px;
+  position: relative;
+  margin-top: 50px;
+  
+  }
+  
+  .footer-top {
+    display: flex;
+    height: 300px;
+  }
+  
+  .footer-top h2 {
+     flex: auto;
+     margin-left:30px;
+     text-align:center;
+     margin-top:10px;
+  }
+  
+  .footer-bottom {
+    background-color: rgb(184, 178, 173);
+    color:white;
+    height:50px;
+    text-align:center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding-top: 20px;
+    width: 100%;
+  }
